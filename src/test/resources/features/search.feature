@@ -30,5 +30,5 @@ Feature: Amazon Search Functionality
     Examples:
       | Category | Product                           | Search Result                               | Price | Type      |
       | Books    | Harry Potter and the Cursed Child | Harry Potter and the Cursed Child           | 4.00  | Paperback |
-      | Books    | Fantastic Beasts Book             | Fantastic Beasts: The Secrets of Dumbledore | 10.00 | Hardcover |
-      | Books    | Roald Dahl                        | Roald Dahl Collection                       | 27.95 | Paperback |
+#      | Books    | Fantastic Beasts Book             | Fantastic Beasts: The Secrets of Dumbledore | 10.00 | Hardcover |
+#      | Books    | Roald Dahl                        | Roald Dahl Collection                       | 27.95 | Paperback |
