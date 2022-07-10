@@ -15,17 +15,17 @@ Feature: Amazon Search Functionality
     When the user navigates to book details
 
 #First item page
-    Then item title,badge,price and type should be the same
-
-
-#Added to basket page
-    Given item is added to the basket
-    And item number in the basket is correct
-    And the user edit the basket
-
-#Basket_page
-    Then title,badge,price and type should be the same
-    And get the quantity on the page
+#    Then item title,badge,price and type should be the same
+#
+#
+##Added to basket page
+#    Given item is added to the basket
+#    And item number in the basket is correct
+#    And the user edit the basket
+#
+##Basket_page
+#    Then title,badge,price and type should be the same
+#    And get the quantity on the page
 
     Examples:
       | Category | Product                           | Search Result                               | Price | Type      |
